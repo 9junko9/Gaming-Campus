@@ -37,7 +37,7 @@ body {
 }
 
 nav {
-  min-width: 1100px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -250,7 +250,7 @@ h1 {
   width: 80%;
   height: 1px;
   background: rgb(235, 235, 235);
-  bottom: -40px;
+  bottom: -28px;
 }
 
 .contact-list .list {
@@ -322,4 +322,21 @@ h1 {
 }
 .medias-logos img {
   width: 60px;
+}
+
+footer {
+  background: rgb(15, 15, 15);
+  color: whitesmoke;
+  padding: 25px;
+}
+footer h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1000px;
+  margin: 0 auto;
 }
